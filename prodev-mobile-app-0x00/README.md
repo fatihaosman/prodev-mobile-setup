@@ -54,3 +54,25 @@ Do you want to move existing files to /app-example instead of deleting them? (Y/
 1. Run `npx expo start` to start a development server.
 2. Edit app/index.tsx to edit the main screen.
 3. Delete the /app-example directory when you're done referencing it.
+
+
+
+## Objective
+Implement mobile components and styles in React Native using Expo Router.
+
+## Steps Followed
+1. Created folder `prodev-mobile-app-0x01`.
+2. Scaffolded Expo Router project using `npx create-expo-app@latest app-example --template expo-router`.
+3. Reset project using `npm run reset-project`.
+4. Opened `app-example/app/index.tsx`.
+5. Added three Text components with styles:
+   - LargeText: "Typescript is great if you practice more"
+   - MediumText: "React Native provides you a single codebase for cross platforms"
+   - SmallText: "ALX is awesome"
+6. Replaced inline style with `style={styles.container}` and created a StyleSheet.
+7. Started development server with `npx expo start` and confirmed styling works.
+
+## Observations
+- Flexbox styles applied for alignment.
+- Text components render with different font sizes, weights, and alignments.
+- Background color applied to container view.
