@@ -1,5 +1,5 @@
 # react native setup
-install exo cli      **npm install -g expo-cli**
+install expo cli      **npm install -g expo-cli**
 intsall expo go on you phone using playstore
 
 create my app       **npx create-expo-app MyApp**
