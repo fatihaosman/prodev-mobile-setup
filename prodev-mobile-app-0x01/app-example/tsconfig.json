@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "../../prodev-mobile-app-0x00/app-example/*"
+      ]
+    }
+  },
+  "include": [
+    "../../prodev-mobile-app-0x00/app-example/**/*.ts",
+    "../../prodev-mobile-app-0x00/app-example/**/*.tsx",
+    "../../prodev-mobile-app-0x00/app-example/.expo/types/**/*.ts",
+    "../../prodev-mobile-app-0x00/app-example/expo-env.d.ts"
+  ]
+}
