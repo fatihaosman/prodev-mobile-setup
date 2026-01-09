@@ -12,6 +12,8 @@
     "../../prodev-mobile-app-0x00/app-example/**/*.ts",
     "../../prodev-mobile-app-0x00/app-example/**/*.tsx",
     "../../prodev-mobile-app-0x00/app-example/.expo/types/**/*.ts",
-    "../../prodev-mobile-app-0x00/app-example/expo-env.d.ts"
+    "../../prodev-mobile-app-0x00/app-example/expo-env.d.ts",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
   ]
 }
