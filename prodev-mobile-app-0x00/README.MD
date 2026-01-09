@@ -1,0 +1,78 @@
+# react native setup
+install expo cli      **npm install -g expo-cli**
+intsall expo go on you phone using playstore
+
+create my app       **npx create-expo-app MyApp**
+craete readme.md
+then run npx expo sart
+
+# ProDev Mobile App 0x00 – First Expo App
+
+## Objective
+Set up the first mobile application using Expo Router and understand the project structure.
+
+## Scaffolding Steps
+1. Navigated to the project directory.
+2. Created a new Expo app using the Expo Router template.
+3. Selected the Tabs navigation structure.
+4. Installed dependencies successfully.
+
+## Home Screen Modification
+- Updated the default welcome text in `app/(tabs)/index.tsx`
+- Changed text from "Welcome!" to "First App Created"
+
+## Running the Application
+- Started the development server using `npx expo start`
+- Scanned the QR code using Expo Go
+- Verified the app runs successfully on a physical device
+
+## Reset Project Observation
+After running `npm run reset-project`:
+- Metro bundler cache was cleared
+- Project state was refreshed
+- The application rebuilt cleanly without errors
+
+## Conclusion
+The Expo Router project was successfully created, modified, tested, and reset.
+
+
+when you run **npm run reset-project** in the termina you get:
+
+Do you want to move existing files to /app-example instead of deleting them? (Y/n): y
+📁 /app-example directory created.
+➡️ /app moved to /app-example/app.
+➡️ /components moved to /app-example/components.
+➡️ /hooks moved to /app-example/hooks.
+➡️ /constants moved to /app-example/constants.
+➡️ /scripts moved to /app-example/scripts.
+
+📁 New /app directory created.
+📄 app/index.tsx created.
+📄 app/_layout.tsx created.
+
+✅ Project reset complete. Next steps:
+1. Run `npx expo start` to start a development server.
+2. Edit app/index.tsx to edit the main screen.
+3. Delete the /app-example directory when you're done referencing it.
+
+
+
+## Objective
+Implement mobile components and styles in React Native using Expo Router.
+
+## Steps Followed
+1. Created folder `prodev-mobile-app-0x01`.
+2. Scaffolded Expo Router project using `npx create-expo-app@latest app-example --template expo-router`.
+3. Reset project using `npm run reset-project`.
+4. Opened `app-example/app/index.tsx`.
+5. Added three Text components with styles:
+   - LargeText: "Typescript is great if you practice more"
+   - MediumText: "React Native provides you a single codebase for cross platforms"
+   - SmallText: "ALX is awesome"
+6. Replaced inline style with `style={styles.container}` and created a StyleSheet.
+7. Started development server with `npx expo start` and confirmed styling works.
+
+## Observations
+- Flexbox styles applied for alignment.
+- Text components render with different font sizes, weights, and alignments.
+- Background color applied to container view.
